@@ -19,6 +19,7 @@ public class ConvirtiendoDeCadenaPrimitivo {
 		boolean logica = Boolean.parseBoolean(cadenaLogica);
 		System.out.println("la cadena logica parseada a boolean es: "+logica);
 		System.out.println("\nFINISH THE PROGRAM");
+		
 	}
 
 }
