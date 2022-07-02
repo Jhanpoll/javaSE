@@ -1,6 +1,6 @@
 package ClasesJavaSE;
 
-public class Boolean {
+public class BooleanPractica {
 	public static void main(String[] args) {
 		
 		/*usando boolean*/

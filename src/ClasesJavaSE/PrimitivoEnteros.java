@@ -3,10 +3,10 @@ package ClasesJavaSE;
 public class PrimitivoEnteros {
 	public static void main(String[] args) {
 
-		byte bytev = 127;
-		short sv = 1234;
+		byte byteNumero = 127;
+		//short shortNumero = 1234;
 		int entero = 1234567890;
-		System.out.println(bytev);
+		System.out.println(byteNumero);
 
 		/* TIPO DE DATO BYTE */
 		System.out.println("tipo byte en byte es igual a : " + Byte.BYTES);
