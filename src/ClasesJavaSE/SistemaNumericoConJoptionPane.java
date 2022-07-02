@@ -14,8 +14,8 @@ public class SistemaNumericoConJoptionPane {
 		 * */
 		//String numeroString = JOptionPane.showInputDialog(null,"ingrese un numero entero");
 		//int numero = 0;
-		
 		String numeroString = JOptionPane.showInputDialog(null,"ingrese un numero entero");
+		//String numeroString = JOptionPane.showInputDialog(null,"ingrese un numero entero");
 		int numero=0 ;
 		try {
 			 //numero = Integer.parseInt(numeroString);
