@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class DetalleDeFactura {
 
 	public static void main(String[] args) {
+		
+		final double IMPUESTO = 0.19;
 		String descripcion;
 		double precio1;
 		double precio2;
-		double impuesto = 0.19;
 		double sumaTotalBruto;
 		double precioImpuesto;
 		double precioTotalNeto;
@@ -21,12 +22,11 @@ public class DetalleDeFactura {
 		System.out.println("precio 2 : ");
 		precio2 = sc.nextDouble();
 		sumaTotalBruto = precio1 + precio2;
-		precioImpuesto = sumaTotalBruto * impuesto;
+		precioImpuesto = sumaTotalBruto * IMPUESTO;
 		precioTotalNeto = precioImpuesto + sumaTotalBruto;
 		System.out.println("------------------------------------------------------");
-		String mensaje = "la descripcion es : " + descripcion + "\nel total bruto es: "+
-		sumaTotalBruto + "\ncon un impuesto de "+ precioImpuesto + "\ny el monto total "
-				+ "neto es : " + precioTotalNeto;
+		String mensaje = "la descripcion es : " + descripcion + "\nel total bruto es: " + sumaTotalBruto
+				+ "\ncon un impuesto de " + precioImpuesto + "\ny el monto total " + "neto es : " + precioTotalNeto;
 		System.out.println(mensaje);
 		sc.close();
 	}
