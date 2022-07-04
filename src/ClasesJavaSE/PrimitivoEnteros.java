@@ -2,7 +2,7 @@ package ClasesJavaSE;
 
 public class PrimitivoEnteros {
 	public static void main(String[] args) {
-
+		
 		byte byteNumero = 127;
 		//short shortNumero = 1234;
 		int entero = 1234567890;
