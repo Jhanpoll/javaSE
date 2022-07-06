@@ -1,4 +1,4 @@
-package ClasesJavaSE;
+package ClasesJavaSE.Seccion2.Variables;
 
 public class BooleanPractica {
 	public static void main(String[] args) {

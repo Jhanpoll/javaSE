@@ -1,4 +1,4 @@
-package ClasesJavaSE;
+package ClasesJavaSE.Seccion3.TipoString;
 
 import java.util.Scanner;
 

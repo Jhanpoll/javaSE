@@ -1,4 +1,4 @@
-package ClasesJavaSE;
+package ClasesJavaSE.Seccion3.TipoString;
 
 import java.util.Scanner;
 
@@ -13,5 +13,6 @@ public class EjemplodeExtensionDeArchivos {
 		 * y lo que queremos es tomar el ultimo punto*/
 		int ultimoPunto = archivo.lastIndexOf(".");
 		System.out.println("la extension del archivo es: "+archivo.substring(ultimoPunto));
+		sc.close();
 	}
 }

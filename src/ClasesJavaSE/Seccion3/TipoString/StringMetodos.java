@@ -1,4 +1,4 @@
-package ClasesJavaSE;
+package ClasesJavaSE.Seccion3.TipoString;
 
 public class StringMetodos {
 
