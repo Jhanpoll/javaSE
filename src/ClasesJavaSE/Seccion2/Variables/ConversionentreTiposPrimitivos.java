@@ -3,7 +3,7 @@ package ClasesJavaSE.Seccion2.Variables;
 public class ConversionentreTiposPrimitivos {
 	
 	public static void main(String[] args) {
-		int numeroEntero = 123456;
+		int numeroEntero = 12345; 
 		
 		
 		long numeroLong = numeroEntero;
