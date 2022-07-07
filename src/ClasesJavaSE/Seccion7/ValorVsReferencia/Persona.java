@@ -2,7 +2,7 @@ package ClasesJavaSE.Seccion7.ValorVsReferencia;
 
 public class Persona {
 	private String nombre;
-
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -10,8 +10,6 @@ public class Persona {
 	public void setNombre(String nombre) {
 		this.nombre=nombre;
 	}
-	public void modificarNombre(String modificarNombre) {
-		nombre = modificarNombre;
-	}
+
 
 }

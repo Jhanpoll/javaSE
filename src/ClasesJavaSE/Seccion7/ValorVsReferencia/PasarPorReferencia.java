@@ -13,7 +13,7 @@ public class PasarPorReferencia {
 		
 		/*EJMPLO 2 : CON PERSONA*/
 		Persona persona = new Persona();
-		persona.modificarNombre("jesus");
+		persona.setNombre("JESUS");
 		System.out.println(persona.getNombre());
 		System.out.println("llamando al metodo personaTest...");
 		personaTest(persona);
@@ -30,7 +30,7 @@ public class PasarPorReferencia {
 	 */
 	
 	public static void personaTest(Persona persona) {
-		persona.modificarNombre("chero");
+		persona.setNombre("CHERO");
 	}
 	
 	
